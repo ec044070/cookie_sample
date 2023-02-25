@@ -2,11 +2,9 @@
 $date = date('Y-m-d H:i:s');
 setcookie('MyDate', $date);
 setcookie('Fruits', 'Apple');
-
 $count = $_COOKIE['count'];
 $count++;
 setcookie('count', $count);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
